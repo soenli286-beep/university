@@ -14,6 +14,25 @@ import CoursesScreen from './src/screens/CoursesScreen';
 import ScheduleScreen from './src/screens/ScheduleScreen';
 import ResultsScreen from './src/screens/ResultsScreen';
 import ProfileScreen from './src/screens/ProfileScreen';
+import AssignmentsScreen from './src/screens/AssignmentsScreen';
+import CampusMapScreen from './src/screens/CampusMapScreen';
+import FocusTimerScreen from './src/screens/FocusTimerScreen';
+import GpaCalculatorScreen from './src/screens/GpaCalculatorScreen';
+import CourseDetailScreen from './src/screens/CourseDetailScreen';
+import ExamScheduleScreen from './src/screens/ExamScheduleScreen';
+import LibraryScreen from './src/screens/LibraryScreen';
+import NotificationsScreen from './src/screens/NotificationsScreen';
+import SettingsScreen from './src/screens/SettingsScreen';
+import AttendanceScreen from './src/screens/AttendanceScreen';
+import TranscriptScreen from './src/screens/TranscriptScreen';
+import CafeteriaMenuScreen from './src/screens/CafeteriaMenuScreen';
+import RoomBookingScreen from './src/screens/RoomBookingScreen';
+import ShuttleBusScreen from './src/screens/ShuttleBusScreen';
+import LectureNotesScreen from './src/screens/LectureNotesScreen';
+import TeacherContactScreen from './src/screens/TeacherContactScreen';
+import DormitoryScreen from './src/screens/DormitoryScreen';
+import EventsScreen from './src/screens/EventsScreen';
+import ClubsScreen from './src/screens/ClubsScreen';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -63,6 +82,25 @@ export default function App() {
         <Stack.Screen name="Register" component={RegisterScreen} />
         <Stack.Screen name="Forgot" component={ForgotScreen} />
         <Stack.Screen name="Main" component={MainTabs} />
+        <Stack.Screen name="Assignments" component={AssignmentsScreen} />
+        <Stack.Screen name="CampusMap" component={CampusMapScreen} />
+        <Stack.Screen name="FocusTimer" component={FocusTimerScreen} />
+        <Stack.Screen name="GpaCalculator" component={GpaCalculatorScreen} />
+        <Stack.Screen name="CourseDetail" component={CourseDetailScreen} />
+        <Stack.Screen name="ExamSchedule" component={ExamScheduleScreen} />
+        <Stack.Screen name="Library" component={LibraryScreen} />
+        <Stack.Screen name="Notifications" component={NotificationsScreen} />
+        <Stack.Screen name="Settings" component={SettingsScreen} />
+        <Stack.Screen name="Attendance" component={AttendanceScreen} />
+        <Stack.Screen name="Transcript" component={TranscriptScreen} />
+        <Stack.Screen name="CafeteriaMenu" component={CafeteriaMenuScreen} />
+        <Stack.Screen name="RoomBooking" component={RoomBookingScreen} />
+        <Stack.Screen name="ShuttleBus" component={ShuttleBusScreen} />
+        <Stack.Screen name="LectureNotes" component={LectureNotesScreen} />
+        <Stack.Screen name="TeacherContact" component={TeacherContactScreen} />
+        <Stack.Screen name="Dormitory" component={DormitoryScreen} />
+        <Stack.Screen name="Events" component={EventsScreen} />
+        <Stack.Screen name="Clubs" component={ClubsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
