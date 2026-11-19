@@ -36,7 +36,7 @@ export default function FocusTimerScreen() {
             style={[styles.btn, { backgroundColor: isActive ? '#FF9800' : '#8D1B78' }]} 
             onPress={() => setIsActive(!isActive)}
           >
-            <Text style={styles.btnText}>{isActive ? 'Пауза' : 'Баштоо'}</Text>
+            <Text style={styles.btnText}>{isActive ? 'Пауза' : 'Нажать'}</Text>
           </TouchableOpacity>
           
           <TouchableOpacity 
